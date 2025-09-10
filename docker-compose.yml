@@ -7,7 +7,7 @@ services:
     container_name: php_test_site
     hostname: ubuntu-srv4 
     ports:
-      - 8080:80
+      - 80:80
     restart: unless-stopped
   
 #    command: CMD ["apache2-foreground"]
